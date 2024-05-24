@@ -18,8 +18,16 @@ public class GameDirecter : MonoBehaviour
     int money = 0;
     public void GetPoint(int p)
     {
-        this.point += p;
-        this.money -= p;
+        if (p > money)
+        {
+            point -= p - money;
+            money = 0;
+        }
+        else
+        {
+            this.point += p;
+            this.money -= p;
+        }
     }
 
 
