@@ -47,6 +47,8 @@ public class GameDirecter : MonoBehaviour
             this.time.ToString("00");
         this.PointText.text =
             this.point.ToString() + "point";
+        this.MoneyText.text =
+            this.money.ToString() + "‰~";
         
     }
 }
