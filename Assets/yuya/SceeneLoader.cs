@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;//UnityƒGƒ“ƒWƒ“‚ÌƒV[ƒ“ŠÇ—ƒvƒƒOƒ‰ƒ€‚ğ—˜—p‚·‚
 
 public class SceneLoader : MonoBehaviour //change‚Æ‚¢‚¤–¼‘O‚É‚µ‚Ü‚·
 {
-    public void Start_button() //change_button‚Æ‚¢‚¤–¼‘O‚É‚µ‚Ü‚·
+    public void Start_button(string Sceneneme) //change_button‚Æ‚¢‚¤–¼‘O‚É‚µ‚Ü‚·
     {
-        SceneManager.LoadScene("GameScene");//second‚ğŒÄ‚Ño‚µ‚Ü‚·
+        SceneManager.LoadScene(Sceneneme);//second‚ğŒÄ‚Ño‚µ‚Ü‚·
     }
 }
