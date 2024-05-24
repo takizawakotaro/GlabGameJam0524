@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8d9cffa2c6ce0468a6c73ea48f3978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  point: 0
+  delete: -10
+  _point: 100
 --- !u!58 &6057995451293978377
 CircleCollider2D:
   m_ObjectHideFlags: 0
