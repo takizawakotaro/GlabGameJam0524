@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/yuya/Start Scene.unity
+    path: Assets/Start Scene.unity
     guid: 307592faf6a80b04588565368f5b804d
   - enabled: 1
     path: Assets/Sample/Scenes/2DSample.unity
