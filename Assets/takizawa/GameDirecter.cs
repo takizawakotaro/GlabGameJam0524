@@ -14,8 +14,12 @@ public class GameDirecter : MonoBehaviour
     [SerializeField]
     float time = 3.0f;
     [SerializeField]
+    float _lastSpurtTime;
     int point = 0;
     int money = 0;
+
+    public bool IsLastSpurt;
+
     public void GetPoint(int p)
     {
         if (p > money)
@@ -57,6 +61,10 @@ public class GameDirecter : MonoBehaviour
             this.point.ToString() + "point";
         this.MoneyText.text =
             this.money.ToString() + "‰~";
-        
+
+        if (!IsLastSpurt && time < _lastSpurtTime)
+        {
+            IsLastSpurt = true;
+        }
     }
 }
