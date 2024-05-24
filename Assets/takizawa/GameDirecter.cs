@@ -10,17 +10,23 @@ public class GameDirecter : MonoBehaviour
     [SerializeField]
     Text PointText;
     [SerializeField]
+    Text MoneyText;
+    [SerializeField]
     float time = 3.0f;
     [SerializeField]
     int point = 0;
-    public void GetApple()
+    int money = 0;
+    public void GetPoint(int p)
     {
-        this.point += 100;
+        this.point += p;
+        this.money -= p;
     }
 
-    public void GetBomb()
+
+
+    public void Getmoney(int m)
     {
-        this.point /= 2;
+        this.money += m;
     }
 
     private void Start()
