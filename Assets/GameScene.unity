@@ -1209,7 +1209,7 @@ GameObject:
   - component: {fileID: 1777262531}
   - component: {fileID: 1777262530}
   m_Layer: 0
-  m_Name: "\u8CAF\u91D1\u888B"
+  m_Name: moneybag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
