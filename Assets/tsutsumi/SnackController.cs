@@ -6,12 +6,20 @@ public class SnackController : MonoBehaviour
 {
     [SerializeField] float delete;
     [SerializeField] int _point;
+    [SerializeField] float _lastSpartGrav;
     GameDirecter _game;
     private void Start()
     {
         var g = GameObject.Find("GameDirecter");
         _game = g.GetComponent<GameDirecter>();
+        Rigidbody2D rigidbody2D = GetComponent<Rigidbody2D>();
+        if(_game.IsLastSpurt)
+        {
+            rigidbody2D.gravityScale = _lastSpartGrav;
+        }
+
     }
+
 
 
     private void Update()
