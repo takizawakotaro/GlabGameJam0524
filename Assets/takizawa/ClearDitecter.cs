@@ -9,7 +9,7 @@ public class ClearDitecter : MonoBehaviour
     [SerializeField] Text _text;
     private void Awake()
     {
-        _text.text ="あなたのスコアは"+ GameDirecter.point.ToString()+"点！";
+        _text.text ="あなたのスコアは"+ GameDirecter.point.ToString()+"てん！";
         GameDirecter.point = 0;
     }
     void Update()
