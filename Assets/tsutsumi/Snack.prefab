@@ -133,6 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delete: -10
   _point: 100
+  _lastSpartGrav: 0
 --- !u!50 &7861334410878798205
 Rigidbody2D:
   serializedVersion: 4
