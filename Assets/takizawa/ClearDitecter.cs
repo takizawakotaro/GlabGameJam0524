@@ -2,10 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ClearDitecter : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] Text _text;
+    private void Awake()
+    {
+        _text.text ="あなたのスコアは"+ GameDirecter.point.ToString()+"点！";
+        GameDirecter.point = 0;
+    }
     void Update()
     {
         if (Input.GetMouseButton(0))
@@ -13,8 +19,6 @@ public class ClearDitecter : MonoBehaviour
             SceneManager.LoadScene("Start Scene");
         }
     }
-
-    // Update is called once per frame
     
     
         

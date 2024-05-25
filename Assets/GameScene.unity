@@ -1413,6 +1413,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameDirecter
       objectReference: {fileID: 0}
+    - target: {fileID: 6748128450935054577, guid: 139b28504db28ae408e0dfb77e9c45a1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.33560187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748128450935054577, guid: 139b28504db28ae408e0dfb77e9c45a1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.33560187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748128450935054577, guid: 139b28504db28ae408e0dfb77e9c45a1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.33560187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748128450935054577, guid: 139b28504db28ae408e0dfb77e9c45a1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -142
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748128450935054577, guid: 139b28504db28ae408e0dfb77e9c45a1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -418
+      objectReference: {fileID: 0}
     - target: {fileID: 9037784828881977752, guid: 139b28504db28ae408e0dfb77e9c45a1, type: 3}
       propertyPath: _objCreator
       value: 
