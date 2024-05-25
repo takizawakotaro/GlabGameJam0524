@@ -515,13 +515,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2837286197639804549, guid: 9f97358118fd34444bd1b28821909e4b, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837286197639804549, guid: 9f97358118fd34444bd1b28821909e4b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 43d04c56bbd02064580ec157ed6c5dce, type: 3}
     - target: {fileID: 7286318032773516639, guid: 9f97358118fd34444bd1b28821909e4b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.31561995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7286318032773516639, guid: 9f97358118fd34444bd1b28821909e4b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.41522804
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7286318032773516639, guid: 9f97358118fd34444bd1b28821909e4b, type: 3}
       propertyPath: m_LocalPosition.z
