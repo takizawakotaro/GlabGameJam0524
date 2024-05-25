@@ -22,6 +22,12 @@ public class GameDirecter : MonoBehaviour
     float _LimitFirst = 20;
     [SerializeField]
     float _LimitSecond = 10;
+    [SerializeField]
+    ObjectCreator _objCreator_obj;
+    [SerializeField]
+    float _LimitFirst1 = 20;
+    [SerializeField]
+    float _LimitSecond2 = 10;
     int point = 0;
     int money = 0;
 
@@ -83,8 +89,22 @@ public class GameDirecter : MonoBehaviour
                 _objCreator.SetCreateInterval(0.5f);
             }
         }
-        
-        
+
+        if (!IsLastSpurt && time < _lastSpurtTime)
+        {
+            IsLastSpurt = true;
+        }
+
+        if (this.time <= _LimitFirst1)
+        {
+            _objCreator_obj.SetCreateInterval(1.0f);
+            if (this.time <= _LimitSecond2)
+            {
+                _objCreator_obj.SetCreateInterval(0.5f);
+            }
+        }
+
+
 
     }
     

@@ -47,13 +47,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _createObjects:
-  - {fileID: 5900664125850144339, guid: 24efbb38664b84945b54f45133d20884, type: 3}
-  - {fileID: 5900664125850144339, guid: 24efbb38664b84945b54f45133d20884, type: 3}
+  - {fileID: 6559501297462899039, guid: c1f37426926fb8f4b90ce16be79cf9d0, type: 3}
+  - {fileID: 183387720180533140, guid: 5871b34a9c6a4d64d9ae0f631de07da4, type: 3}
+  - {fileID: 183387720180533140, guid: 5871b34a9c6a4d64d9ae0f631de07da4, type: 3}
+  - {fileID: 7427492132489844312, guid: 7219f612bf0b0d34eb7617735e6f119c, type: 3}
+  - {fileID: 7427492132489844312, guid: 7219f612bf0b0d34eb7617735e6f119c, type: 3}
+  - {fileID: 5537426013945750752, guid: 3e84e0ac9bb1a6b408efabce5055df8a, type: 3}
+  - {fileID: 5572248364233449048, guid: 680404d884932ba4a8edaa09abf2bc12, type: 3}
+  - {fileID: 140721521200750270, guid: 5df0bfe6ad5d80a44b814f03d308d2f3, type: 3}
+  - {fileID: 140721521200750270, guid: 5df0bfe6ad5d80a44b814f03d308d2f3, type: 3}
   _isRandom: 1
   _isAutoCreate: 1
-  _createInterval: 1
+  _createInterval: 2
   _isCreateCountLimit: 0
-  _createCountNum: 10
+  _createCountNum: 100
   _createPositionType: 0
   _createRange: {x: 8, y: 0, z: 0}
   _createPositions:
