@@ -275,6 +275,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7798700218142542582, guid: 5d55c75d8ce39ce4abe60adc0fafc191, type: 3}
+      propertyPath: m_movePower
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8008000649807957034, guid: 5d55c75d8ce39ce4abe60adc0fafc191, type: 3}
       propertyPath: m_Name
       value: kago
