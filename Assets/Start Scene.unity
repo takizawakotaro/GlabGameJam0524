@@ -382,7 +382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: GameScene
+      value: SecondScene
       objectReference: {fileID: 0}
     - target: {fileID: 4566560335880765356, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_LocalScale.x
