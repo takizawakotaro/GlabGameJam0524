@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; 
 
 public class GameDirecter : MonoBehaviour
 {
@@ -59,6 +60,7 @@ public class GameDirecter : MonoBehaviour
         if (this.time < 0)
         {
             this.time = 0;
+            SceneManager.LoadScene("Clearscene");
         }
 
         this.timerText.text =
