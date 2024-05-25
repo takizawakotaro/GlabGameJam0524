@@ -21,6 +21,7 @@ public class ObjectCreator : MonoBehaviour
     [SerializeField]
     private float _createInterval = 1.0f;
 
+
     [Header("生成する個数制限")]
     [SerializeField]
     private bool _isCreateCountLimit = false;
@@ -95,6 +96,10 @@ public class ObjectCreator : MonoBehaviour
             CreateObject();
             _timeCount = 0.0f;
         }
+
+        //インターバルの時間を変える
+        
+
     }
 
     private void CreateObject()
@@ -180,4 +185,5 @@ public class ObjectCreator : MonoBehaviour
     {
         _createInterval = interval;
     }
+
 }
