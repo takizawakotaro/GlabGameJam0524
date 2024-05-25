@@ -75,7 +75,7 @@ public class GameDirecter : MonoBehaviour
         this.timerText.text =
             this.time.ToString("00");
         this.PointText.text =
-            point.ToString() + "point";
+            point.ToString();
         this.MoneyText.text =
             this.money.ToString() + "‰~";
 
