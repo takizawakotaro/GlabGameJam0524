@@ -30,7 +30,7 @@ public class GameDirecter : MonoBehaviour
     [SerializeField]
     float _LimitSecond2 = 10;
     public static int point = 0;
-    int money = 0;
+    int money = 100;
 
     public bool IsLastSpurt;
 
