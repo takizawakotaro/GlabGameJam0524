@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class GameDirecter : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class GameDirecter : MonoBehaviour
     float _LimitFirst1 = 20;
     [SerializeField]
     float _LimitSecond2 = 10;
-    int point = 0;
+    public static int point = 0;
     int money = 0;
 
     public bool IsLastSpurt;
@@ -42,11 +43,13 @@ public class GameDirecter : MonoBehaviour
         }
         else
         {
-            this.point += p;
+            point += p;
             this.money -= p;
         }
     }
 
+    
+    
 
 
     public void Getmoney(int m)
@@ -72,7 +75,7 @@ public class GameDirecter : MonoBehaviour
         this.timerText.text =
             this.time.ToString("00");
         this.PointText.text =
-            this.point.ToString() + "point";
+            point.ToString() + "point";
         this.MoneyText.text =
             this.money.ToString() + "‰~";
 
