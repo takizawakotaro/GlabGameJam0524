@@ -385,6 +385,14 @@ PrefabInstance:
       value: SecondScene
       objectReference: {fileID: 0}
     - target: {fileID: 4566560335880765356, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566560335880765356, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566560335880765356, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.3902
       objectReference: {fileID: 0}
@@ -398,11 +406,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4566560335880765356, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -422
+      value: -428
       objectReference: {fileID: 0}
     - target: {fileID: 5823845024023756142, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_Text
+      value: "\u30B9\u30BF\u30FC\u30C8"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 15a65eaa6af1b20439635c53145b1d1b, type: 3}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219586944767277722, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
