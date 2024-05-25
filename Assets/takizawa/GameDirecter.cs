@@ -83,10 +83,10 @@ public class GameDirecter : MonoBehaviour
 
         if (this.time <= _LimitFirst)
         {
-            _objCreator.SetCreateInterval(1.0f);
+            _objCreator.SetCreateInterval(1.5f);
             if (this.time <= _LimitSecond)
             {
-                _objCreator.SetCreateInterval(0.5f);
+                _objCreator.SetCreateInterval(2f);
             }
         }
 
@@ -97,10 +97,10 @@ public class GameDirecter : MonoBehaviour
 
         if (this.time <= _LimitFirst1)
         {
-            _objCreator_obj.SetCreateInterval(1.0f);
+            _objCreator_obj.SetCreateInterval(0.3f);
             if (this.time <= _LimitSecond2)
             {
-                _objCreator_obj.SetCreateInterval(0.5f);
+                _objCreator_obj.SetCreateInterval(0.1f);
             }
         }
 
