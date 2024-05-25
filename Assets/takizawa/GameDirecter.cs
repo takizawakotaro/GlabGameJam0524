@@ -15,6 +15,12 @@ public class GameDirecter : MonoBehaviour
     float time = 3.0f;
     [SerializeField]
     float _lastSpurtTime;
+    [SerializeField]
+    ObjectCreator _objCreator;
+    [SerializeField]
+    float _LimitFirst = 20;
+    [SerializeField]
+    float _LimitSecond = 10;
     int point = 0;
     int money = 0;
 
@@ -66,5 +72,19 @@ public class GameDirecter : MonoBehaviour
         {
             IsLastSpurt = true;
         }
+
+        if (this.time <= _LimitFirst)
+        {
+            _objCreator.SetCreateInterval(1.0f);
+            if (this.time <= _LimitSecond)
+            {
+                _objCreator.SetCreateInterval(0.5f);
+            }
+        }
+        
+        
+
     }
+    
+
 }
