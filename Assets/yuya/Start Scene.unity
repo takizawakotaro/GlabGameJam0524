@@ -353,13 +353,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1240398312}
+      objectReference: {fileID: 1240398313}
     - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -369,8 +373,16 @@ PrefabInstance:
       value: Start_button
       objectReference: {fileID: 0}
     - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: test, Assembly-CSharp
+      value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879717158102433256, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Second
       objectReference: {fileID: 0}
     - target: {fileID: 4566560335880765356, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_LocalScale.x
@@ -386,7 +398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4566560335880765356, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -175
+      value: -350
       objectReference: {fileID: 0}
     - target: {fileID: 5823845024023756142, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
       propertyPath: m_Name
@@ -410,6 +422,17 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240398311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336a32e2430efa74f869e095da0a4cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1240398313 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 706476504527812876, guid: 099d36554ada19c4fbb2fa7e04487b65, type: 3}
+  m_PrefabInstance: {fileID: 1240398310}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240398311}
   m_Enabled: 1
